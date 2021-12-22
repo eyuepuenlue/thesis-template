@@ -1,4 +1,4 @@
-% *******************************************************************
+\usepackage{mathtools}% *******************************************************************
 % STOP - Bitte zuerst lesen, bevor Sie weitermachen
 %
 % Einige Dinge müssen Sie an Ihre Bedürfnisse (und die Vorgaben Ihres
@@ -64,7 +64,7 @@
 % *******************************************************************
 
 % Sprache für das Dokument festlegen
-\newcommand{\hsmasprache}{de} % de oder en für Deutsch oder Englisch
+\newcommand{\hsmasprache}{en} % de oder en für Deutsch oder Englisch
 
 % Preambel mit Einstellungen importieren
 \input{preambel}
@@ -92,6 +92,7 @@
 \pdfbookmark{\contentsname}{Contents}
 \tableofcontents
 
+
 % Korrigiert Nummerierung bei mehrseitigem Inhaltsverzeichnis
 \cleardoublepage
 \newcounter{frontmatterpage}
@@ -105,10 +106,20 @@
 
 % ------------------------------------------------------------------
 % Hauptteil der Arbeit
-\input{kapitel/kapitel1} % Externe Datei einbinden
-\input{kapitel/kapitel2} % Externe Datei einbinden
-\input{kapitel/kapitel3} % Externe Datei einbinden
-\input{kapitel/kapitel4} % Externe Datei einbinden
+
+%\input{kapitel/Chapter1.tex} % Expose
+
+\input{kapitel/01_Introduction.tex} % Externe Datei einbinden
+\input{kapitel/02_Basics.tex} % Externe Datei einbinden
+\input{kapitel/03_Demographie.tex} % Externe Datei einbinden
+\input{kapitel/04_Goals.tex} % Externe Datei einbinden
+\input{kapitel/05_SolutionKonzept.tex} % Externe Datei einbinden
+
+\input{kapitel/06_Implementation.tex} % Externe Datei einbinden
+\input{kapitel/07_Validation.tex} % Externe Datei einbinden
+\input{kapitel/08_Discussion.tex} % Externe Datei einbinden
+\input{kapitel/09_Alternatives.tex} % Externe Datei einbinden
+\input{kapitel/10_Summary.tex} % Externe Datei einbinden
 % ------------------------------------------------------------------
 
 \label{lastpage}

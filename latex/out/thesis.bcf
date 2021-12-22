@@ -159,7 +159,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortlocale</bcf:key>
-      <bcf:value>de_DE</bcf:value>
+      <bcf:value>en_US</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
@@ -2345,28 +2345,6 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">literatur.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Kornmeier2011</bcf:citekey>
-    <bcf:citekey order="2">Kramer2009</bcf:citekey>
-    <bcf:citekey order="3">Kornmeier2011</bcf:citekey>
-    <bcf:citekey order="4">Kornmeier2011</bcf:citekey>
-    <bcf:citekey order="5">Gao2017</bcf:citekey>
-    <bcf:citekey order="6">Willberg1999</bcf:citekey>
-    <bcf:citekey order="7">Willberg1999</bcf:citekey>
-    <bcf:citekey order="8">Willberg1999</bcf:citekey>
-    <bcf:citekey order="9">Willberg1999</bcf:citekey>
-    <bcf:citekey order="10">Willberg1999</bcf:citekey>
-    <bcf:citekey order="11">Willberg1999</bcf:citekey>
-    <bcf:citekey order="12">Willberg1999</bcf:citekey>
-    <bcf:citekey order="13">Willberg1999</bcf:citekey>
-    <bcf:citekey order="14">Weber2006</bcf:citekey>
-    <bcf:citekey order="15">Forssman2002</bcf:citekey>
-    <bcf:citekey order="16">Willberg1999</bcf:citekey>
-    <bcf:citekey order="17">Wikipedia_HarveyBalls</bcf:citekey>
-    <bcf:citekey order="18">Volere</bcf:citekey>
-    <bcf:citekey order="19">Barbacci2003</bcf:citekey>
-    <bcf:citekey order="20">ISO25010</bcf:citekey>
-    <bcf:citekey order="21">Bass2003</bcf:citekey>
-    <bcf:citekey order="22">Bass2003</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
